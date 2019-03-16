@@ -40,7 +40,9 @@ jobs:
               - cd hook_system/client/ClientServer/ClientApp
               - npm install -g @angular/cli
 	      - npm install -g @angular-devkit/build-angular
-          script:
+              - npm install -g @angular/core
+	      - npm install -g @angular/compiler-cli
+   	  script:
               - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
               - npm run e2e -- --protractor-config=e2e/protractor.conf.js
         - stage: run scub
