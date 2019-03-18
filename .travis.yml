@@ -11,13 +11,10 @@ addons:
   postgresql: "10"
   chrome: stable
   apt:
-    sources:
-      - google-chrome
     packages:
       - postgresql-10
       - postgresql-client-10
       - ng-common
-      - google-chrome-stable
 env:
   global:
     - PGPORT=5432
