@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/stroma-lamellae/chloroplasts.svg?branch=master)](https://travis-ci.org/stroma-lamellae/chloroplasts "Travis")
+[![Build Status](https://travis-ci.com/stroma-lamellae/chloroplasts.svg?token=B4HsPVynZh9evHaDSmTB&branch=master)](https://travis-ci.com/stroma-lamellae/chloroplasts "Travis")
 
 # chloroplasts
 
