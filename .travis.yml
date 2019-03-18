@@ -35,7 +35,6 @@ jobs:
               - sudo apt-get install python3-pip
               - cd hook_system/client/ClientServer/scrubbing
               - pip3 install --user -r requirements.txt
-              - pip3 install --user tk-tools
               - mkdir tmp
               - cd ../
           script:
