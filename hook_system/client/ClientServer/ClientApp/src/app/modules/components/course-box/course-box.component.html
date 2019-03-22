@@ -1,0 +1,7 @@
+<div class="course__view-box">
+  <p>{{course.courseCode}}</p>
+  <div class="course__view-assignments" *ngFor="let assignment of course.assignments">
+    <p>{{assignment.name}}</p>
+  </div>
+  <div class="course__view-summary">{{course.assignments.length}} Assignments</div>
+</div>

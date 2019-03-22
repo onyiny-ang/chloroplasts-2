@@ -9,6 +9,8 @@ import { AssignmentComponent } from './components/assignment/assignment.componen
 import { SubmissionComponent } from './components/submission/submission.component';
 import { CourseDetailComponent } from './components/course-detail/course-detail.component';
 import { LoginComponent } from './pages/login/login.component';
+import { CourseBoxComponent } from './components/course-box/course-box.component';
+import { ArchivedCoursesComponent } from './pages/archived-courses/archived-courses.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, ReactiveFormsModule],
@@ -20,7 +22,9 @@ import { LoginComponent } from './pages/login/login.component';
     AssignmentComponent,
     CourseDetailComponent,
     SubmissionComponent,
-    LoginComponent
+    LoginComponent,
+	CourseBoxComponent,
+	ArchivedCoursesComponent
   ]
 })
 export class RootModule {}
